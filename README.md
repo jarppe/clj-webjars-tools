@@ -52,7 +52,7 @@ to path:
 (def index-page
   "<html>
      <head>
-       <link rel=\"stylesheet\" href=\"/css/font-awesome.min.css\"/>
+       <link rel=\"stylesheet\" href=\"/static/css/font-awesome.min.css\"/>
      </head>
      <body>
        <h1>Hello World <i class=\"fa fa-thumbs-o-up\"></i></h1>
