@@ -68,4 +68,5 @@
       (if (and (= request-method :get)
                (.startsWith uri uri-root))
         (if-let [entry (find-resource jar artifact-name version (str jar-root (.substring uri uri-root-len)))]
-          (.getInputStream jar entry))))))
+          {:status 200
+           :body (.getInputStream jar entry)})))))

@@ -4,5 +4,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/java.classpath "0.2.2"]]
   :profiles {:dev {:dependencies [[midje "1.6.3"]
-                                  [org.webjars/font-awesome "4.3.0-1"]]
+                                  [org.webjars/font-awesome "4.3.0-1"]
+                                  [http-kit "2.1.19"]
+                                  [compojure "1.3.2"]]
                    :plugins [[lein-midje "3.1.3"]]}})
